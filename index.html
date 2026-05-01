@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/book.png" type="image/x-icon">
+</head>
+<body>
+    <main class="main">
+        <section class="welcome">
+            <div class="container">
+
+                <div class="welcome-block">
+                    <div class="header-welcome">
+                        <h4 class="text-welcome-header">Список задач</h4>
+                        <img src="./images/book.png" alt="" class="img-welcome-header">
+                    </div>
+
+                    <div class="input-block">
+                        <form>
+                        <input type="text" placeholder="Напишите задачу" class="input-welcome" id="text-input">
+                        <input type="submit" class="btn" value="Добавить" id="btn">
+                        </form> 
+                    </div>
+
+                    <div class="clear-all">
+                        <input type="submit" id="btn-clear" class="btn btn-clear" value="Очистить все">
+                    </div>
+
+                    <div class="output-text" id="output-text">
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
